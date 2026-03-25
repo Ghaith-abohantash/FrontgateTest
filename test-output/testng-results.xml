@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="٢٠٢٦-٠٣-٢٥T١٩:٣٥:٢٩ EET" name="Frontgate Suite" finished-at="٢٠٢٦-٠٣-٢٥T١٩:٣٦:٠٧ EET" duration-ms="37794">
+    <groups>
+    </groups>
+    <test started-at="٢٠٢٦-٠٣-٢٥T١٩:٣٥:٢٩ EET" name="Login Cases From Excel" finished-at="٢٠٢٦-٠٣-٢٥T١٩:٣٦:٠٧ EET" duration-ms="37794">
+      <class name="tests.LoginExcelTest">
+        <test-method is-config="true" signature="prepareExcel()[pri:0, instance:tests.LoginExcelTest@d737b89]" started-at="٢٠٢٦-٠٣-٢٥T١٩:٣٥:٢٩ EET" name="prepareExcel" finished-at="٢٠٢٦-٠٣-٢٥T١٩:٣٥:٢٩ EET" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareExcel -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginExcelTest@d737b89]" started-at="٢٠٢٦-٠٣-٢٥T١٩:٣٥:٣٠ EET" name="setup" finished-at="٢٠٢٦-٠٣-٢٥T١٩:٣٥:٣٢ EET" duration-ms="1601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithExcel(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@d737b89]" started-at="٢٠٢٦-٠٣-٢٥T١٩:٣٥:٣٢ EET" name="loginWithExcel" data-provider="loginData" finished-at="٢٠٢٦-٠٣-٢٥T١٩:٣٥:٤٣ EET" duration-ms="11296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid-email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithExcel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginExcelTest@d737b89]" started-at="٢٠٢٦-٠٣-٢٥T١٩:٣٥:٤٣ EET" name="teardown" finished-at="٢٠٢٦-٠٣-٢٥T١٩:٣٥:٤٤ EET" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginExcelTest@d737b89]" started-at="٢٠٢٦-٠٣-٢٥T١٩:٣٥:٤٤ EET" name="setup" finished-at="٢٠٢٦-٠٣-٢٥T١٩:٣٥:٤٤ EET" duration-ms="851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithExcel(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@d737b89]" started-at="٢٠٢٦-٠٣-٢٥T١٩:٣٥:٤٤ EET" name="loginWithExcel" data-provider="loginData" finished-at="٢٠٢٦-٠٣-٢٥T١٩:٣٥:٥٤ EET" duration-ms="9865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ghaith.a.hantash@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12356646876]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithExcel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginExcelTest@d737b89]" started-at="٢٠٢٦-٠٣-٢٥T١٩:٣٥:٥٤ EET" name="teardown" finished-at="٢٠٢٦-٠٣-٢٥T١٩:٣٥:٥٥ EET" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginExcelTest@d737b89]" started-at="٢٠٢٦-٠٣-٢٥T١٩:٣٥:٥٥ EET" name="setup" finished-at="٢٠٢٦-٠٣-٢٥T١٩:٣٥:٥٥ EET" duration-ms="793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithExcel(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginExcelTest@d737b89]" started-at="٢٠٢٦-٠٣-٢٥T١٩:٣٥:٥٥ EET" name="loginWithExcel" data-provider="loginData" finished-at="٢٠٢٦-٠٣-٢٥T١٩:٣٦:٠٧ EET" duration-ms="11296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ghaith.a.hantash@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ghaith123-]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithExcel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginExcelTest@d737b89]" started-at="٢٠٢٦-٠٣-٢٥T١٩:٣٦:٠٧ EET" name="teardown" finished-at="٢٠٢٦-٠٣-٢٥T١٩:٣٦:٠٧ EET" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginExcelTest -->
+    </test> <!-- Login Cases From Excel -->
+  </suite> <!-- Frontgate Suite -->
+</testng-results>

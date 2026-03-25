@@ -1,0 +1,7 @@
+<suite name="Frontgate Suite">
+    <test name="Login Cases From Excel">
+        <classes>
+            <class name="tests.LoginExcelTest"/>
+        </classes>
+    </test>
+</suite>
