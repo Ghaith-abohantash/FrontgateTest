@@ -2,7 +2,6 @@ package tests;
 
 import base.BaseTest;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pages.HeaderPage;
@@ -13,11 +12,6 @@ import utils.TestDataWriter;
 public class LoginExcelTest extends BaseTest {
 
     private static final String URL = "https://www.frontgate.com/ShoppingCartView";
-
-    @BeforeClass
-    public void prepareExcel() throws Exception {
-        TestDataWriter.createExcelIfNotExists();
-    }
 
     @DataProvider(name = "loginData")
     public Object[][] getData() throws Exception {
@@ -50,7 +44,8 @@ public class LoginExcelTest extends BaseTest {
         }
 
         if (email.equals(TestDataWriter.VALID_EMAIL) && password.equals(TestDataWriter.VALID_PASSWORD)) {
-            Assert.assertTrue(signIn.isSignedIn(), "Login success not detected (Sign In button still visible).");
+            Assert.assertTrue(signIn.isSignedIn(),
+                    "Login success not detected (Sign In button still visible).");
         }
     }
 }

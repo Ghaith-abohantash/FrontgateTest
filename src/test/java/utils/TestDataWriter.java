@@ -1,10 +1,4 @@
 package utils;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
-import java.io.File;
-import java.io.FileOutputStream;
 
 public class TestDataWriter {
 
@@ -14,6 +8,9 @@ public class TestDataWriter {
     public static final String VALID_PASSWORD = "Ghaith123-";
     public static final String WRONG_PASSWORD = "12356646876";
 
+    // ===============================================
+    // ===============================================
+    /*
     public static void createExcelIfNotExists() throws Exception {
         File file = new File(FILE_PATH);
         if (file.exists()) return;
@@ -42,4 +39,5 @@ public class TestDataWriter {
         fos.close();
         workbook.close();
     }
+    */
 }
